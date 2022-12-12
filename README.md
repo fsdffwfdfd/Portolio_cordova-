@@ -5,8 +5,7 @@
 
 # 코르도바실행화면
 <img src="https://user-images.githubusercontent.com/96104937/207129147-d41a13ad-edf0-4103-952a-da0f87821536.PNG" width="20%"> <img src="https://user-images.githubusercontent.com/96104937/207129160-2993578f-a2c3-4fdf-87c6-954591032e2d.PNG" width="20%">
-<img src="https://user-images.githubusercontent.com/96104937/207129172-99684f76-60b1-45da-b6a1-995311ef40fe.PNG">
-4591032e2d.PNG" width="20%"> <img src="https://user-images.githubusercontent.com/96104937/207129192-a13ef171-1add-4276-9a2f-8fb555c3033e.PNG" width="20%">
+<img src="https://user-images.githubusercontent.com/96104937/207129172-99684f76-60b1-45da-b6a1-995311ef40fe.PNG" width="20%"> <img src="https://user-images.githubusercontent.com/96104937/207129192-a13ef171-1add-4276-9a2f-8fb555c3033e.PNG" width="20%">
 
 
 
