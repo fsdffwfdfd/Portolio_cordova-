@@ -116,8 +116,8 @@ android:largeHeap="true" 넣기
 >cordova run android --list
 >cordova emulate android
   (에뮬레이터에 실행)
->cordova run android
-  (기기에 실행)
+>cordova run android    
+  (기기에 실행)    
   
   
 # 나의 포트폴리오 앱페이지     
