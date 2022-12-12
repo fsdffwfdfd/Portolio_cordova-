@@ -14,23 +14,24 @@ c:\HybridApp\폴더에 gradle-3.5.zip 다운로드
 알아서 풀기
 
 ### 4. 안드로이드 플랫폼 패키지 추가 설치
-Tools
-	Android SDK Tools
-	Android SDK Platfor-tools
-	Android SDK Build-tools
-Android R(Api 29, R preview)
-	SDK Platform Android R Preview
-	Google Play Intel x86 Atom_64_System Image
-	Google APIs intel x86 Atom_64_System Image
-Extra
-	Android Support Repository
-	Android Auto Desktop head unit emulator
-	Android auto API simulator
-	Google Repository
-	Google USB Driver
-	Google Play Services
-	Android SDK Command-line Tools
-	Intel x86 Emulator Accelerator(HAXM installer)
+#### Tools
+-Android SDK Tools
+-Android SDK Platfor-tools
+-Android SDK Build-tools
+
+####Android R(Api 29, R preview)
+-SDK Platform Android R Preview
+-Google Play Intel x86 Atom_64_System Image
+-Google APIs intel x86 Atom_64_System Image
+####Extra
+-Android Support Repository
+-Android Auto Desktop head unit emulator
+-Android auto API simulator
+-Google Repository
+-Google USB Driver
+-Google Play Services
+-Android SDK Command-line Tools
+-Intel x86 Emulator Accelerator(HAXM installer)
 
 ### 5. 환경 변수 설정
 JAVA_HOME 	c:\progrqm files\java\jdk1.8--
