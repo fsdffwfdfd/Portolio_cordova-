@@ -38,7 +38,7 @@ JAVA_HOME 	c:\progrqm files\java\jdk1.8--
 ANDROID_SDK_ROOT	C:\Users\608\AppData\Local\Android\android-sdk
 GRADLE_HOME	C:\gradle-3.5
 
-####Path 
+#### Path 
 %JAVA_HOME%\bin;    
 %ANDROID_HOME%\tools    
 %ANDROID_HOME%\platform-tools    
