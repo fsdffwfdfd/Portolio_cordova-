@@ -1,19 +1,19 @@
-1. JDK 설치
+### 1. JDK 설치
 jdk-8u162-windows-x64.exe    		
 
 2.0  \hybridapp 디렉토리 만들기
 >cd \
 >md hybridapp
 
-2. 아파치 앤트 설치
+### 2. 아파치 앤트 설치
 c:\HybridApp\폴더에 apache-ant-1.9.16-bin.zip  다운로드 
 알아서 풀기
 
-3. Gradle 설치
+### 3. Gradle 설치
 c:\HybridApp\폴더에 gradle-3.5.zip 다운로드
 알아서 풀기
 
-4. 안드로이드 플랫폼 패키지 추가 설치
+### 4. 안드로이드 플랫폼 패키지 추가 설치
 Tools
 	Android SDK Tools
 	Android SDK Platfor-tools
@@ -32,7 +32,7 @@ Extra
 	Android SDK Command-line Tools
 	Intel x86 Emulator Accelerator(HAXM installer)
 
-5. 환경 변수 설정
+### 5. 환경 변수 설정
 JAVA_HOME 	c:\progrqm files\java\jdk1.8--
 ANDROID_SDK_ROOT	C:\Users\608\AppData\Local\Android\android-sdk
 GRADLE_HOME	C:\gradle-3.5
@@ -47,20 +47,20 @@ Path
 	%GRADLE_HOME%\bin
 	c:\HybridApp\apace-ant-1.9.16\bin
 
-6. Node.js 설치
+### 6. Node.js 설치
 "node js 설치" 검색 후 다운로드
 >node -v
 >npm -v
 >npm update -g
 
-7. 코르도바 설치
+### 7. 코르도바 설치
 >npm install -g phonegap
 >npm install -g cordova
 >cordova -v
 >npm update -g phonegap
 >npm update -g cordova
 
-8. 안드로이드 스튜디오 설치
+### 8. 안드로이드 스튜디오 설치
 
 안드로이드 코르도바 앱 만들기
 >mkdir \HybridProject
@@ -72,7 +72,7 @@ Path
 >cordova platform add android
 >dir platform
 
-9. 안드로이드 스튜디오 build.gradle(:app)
+### 9. 안드로이드 스튜디오 build.gradle(:app)
 
 -android 안에
 packagingOptions {
@@ -99,16 +99,16 @@ packagingOptions {
 
     }
 
-10. AndroidManifest.xml
+### 10. AndroidManifest.xml
 -application 안에
 android:largeHeap="true" 넣기
 
-11. C:\Users\[사용자명]\.android 내에 있는 debug.keystore파일 삭제
+### 11. C:\Users\[사용자명]\.android 내에 있는 debug.keystore파일 삭제
 (삭제가 되지 않을 경우에는 Ctrl+Alt+Del => 작업관리자에서
 해당 프로세스 작업 끝내기 후에 삭제)
 
 
-12. AVD  실행 혹은 스마트폰 컴과 연결
+### 12. AVD  실행 혹은 스마트폰 컴과 연결
 >cordova run android --list
 >cordova emulate android
   (에뮬레이터에 실행)
