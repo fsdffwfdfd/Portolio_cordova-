@@ -15,9 +15,9 @@ c:\HybridApp\폴더에 gradle-3.5.zip 다운로드
 
 ### 4. 안드로이드 플랫폼 패키지 추가 설치
 #### Tools
--Android SDK Tools
--Android SDK Platfor-tools
--Android SDK Build-tools
+   -Android SDK Tools
+   -Android SDK Platfor-tools
+   -Android SDK Build-tools
 
 #### Android R(Api 29, R preview)
 -SDK Platform Android R Preview
