@@ -113,11 +113,9 @@ android:largeHeap="true" 넣기
 
 
 ### 12. AVD  실행 혹은 스마트폰 컴과 연결
->cordova run android --list
->cordova emulate android
-  (에뮬레이터에 실행)
->cordova run android    
-  (기기에 실행)    
+>cordova run android --list     
+>cordova emulate android(에뮬레이터에 실행)     
+>cordova run android     (기기에 실행)       
   
   
 # 나의 포트폴리오 앱페이지     
