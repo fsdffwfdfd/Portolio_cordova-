@@ -5,15 +5,15 @@ jdk-8u162-windows-x64.exe
 >cd \
 >md hybridapp
 
-2. 아파치 앤트 설치하기
+2. 아파치 앤트 설치
 c:\HybridApp\폴더에 apache-ant-1.9.16-bin.zip  다운로드 
 알아서 풀기
 
-3. Gradle 설치하기
+3. Gradle 설치
 c:\HybridApp\폴더에 gradle-3.5.zip 다운로드
 알아서 풀기
 
-4. 안드로이드 플랫폼 패키지 추가 설치하기
+4. 안드로이드 플랫폼 패키지 추가 설치
 Tools
 	Android SDK Tools
 	Android SDK Platfor-tools
@@ -32,7 +32,7 @@ Extra
 	Android SDK Command-line Tools
 	Intel x86 Emulator Accelerator(HAXM installer)
 
-5. 환경 변수 설정하기
+5. 환경 변수 설정
 JAVA_HOME 	c:\progrqm files\java\jdk1.8--
 ANDROID_SDK_ROOT	C:\Users\608\AppData\Local\Android\android-sdk
 GRADLE_HOME	C:\gradle-3.5
@@ -47,13 +47,13 @@ Path
 	%GRADLE_HOME%\bin
 	c:\HybridApp\apace-ant-1.9.16\bin
 
-6. Node.js 설치하기
+6. Node.js 설치
 "node js 설치" 검색 후 다운로드
 >node -v
 >npm -v
 >npm update -g
 
-7. 폰갭(코르도바 설치하기)
+7. 코르도바 설치
 >npm install -g phonegap
 >npm install -g cordova
 >cordova -v
@@ -72,7 +72,7 @@ Path
 >cordova platform add android
 >dir platform
 
-9. build.gradle(:app) ->안드로이드 스튜디오
+9. 안드로이드 스튜디오 build.gradle(:app)
 
 -android 안에
 packagingOptions {
@@ -115,7 +115,9 @@ android:largeHeap="true" 넣기
 >cordova run android
   (기기에 실행)
   
-# 나의 포트폴리오 앱페이지  
+  
+# 나의 포트폴리오 앱페이지 
+
 
 
 # 코르도바실행화면
@@ -124,7 +126,7 @@ android:largeHeap="true" 넣기
 
 
 
-# 레인이소개 웹페이지
+# 포트폴리오 웹페이지
 <img src="https://user-images.githubusercontent.com/96104937/207130387-7a6cdf63-bfae-4b1d-a5e8-201f561b95ad.PNG" width="90%">
 <img src="https://user-images.githubusercontent.com/96104937/207130390-47525016-466c-4bc1-94f9-037493caebf8.PNG" width="90%">
 <img src="https://user-images.githubusercontent.com/96104937/207130394-df7af409-54a3-47ca-9e66-149362dc98ca.PNG" width="90%">
