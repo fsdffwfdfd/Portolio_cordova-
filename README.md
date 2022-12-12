@@ -19,11 +19,11 @@ c:\HybridApp\폴더에 gradle-3.5.zip 다운로드
 -Android SDK Platfor-tools
 -Android SDK Build-tools
 
-####Android R(Api 29, R preview)
+#### Android R(Api 29, R preview)
 -SDK Platform Android R Preview
 -Google Play Intel x86 Atom_64_System Image
 -Google APIs intel x86 Atom_64_System Image
-####Extra
+#### Extra
 -Android Support Repository
 -Android Auto Desktop head unit emulator
 -Android auto API simulator
