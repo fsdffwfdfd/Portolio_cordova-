@@ -20,33 +20,33 @@ c:\HybridApp\폴더에 gradle-3.5.zip 다운로드
 -Android SDK Build-tools    
 
 #### Android R(Api 29, R preview)
--SDK Platform Android R Preview
--Google Play Intel x86 Atom_64_System Image
--Google APIs intel x86 Atom_64_System Image
+-SDK Platform Android R Preview    
+-Google Play Intel x86 Atom_64_System Image    
+-Google APIs intel x86 Atom_64_System Image    
 #### Extra
--Android Support Repository
--Android Auto Desktop head unit emulator
--Android auto API simulator
--Google Repository
--Google USB Driver
--Google Play Services
--Android SDK Command-line Tools
--Intel x86 Emulator Accelerator(HAXM installer)
+-Android Support Repository    
+-Android Auto Desktop head unit emulator    
+-Android auto API simulator    
+-Google Repository    
+-Google USB Driver    
+-Google Play Services    
+-Android SDK Command-line Tools    
+-Intel x86 Emulator Accelerator(HAXM installer)    
 
 ### 5. 환경 변수 설정
 JAVA_HOME 	c:\progrqm files\java\jdk1.8--
 ANDROID_SDK_ROOT	C:\Users\608\AppData\Local\Android\android-sdk
 GRADLE_HOME	C:\gradle-3.5
 
-Path 
-	%JAVA_HOME%\bin;
-	%ANDROID_HOME%\tools
-	%ANDROID_HOME%\platform-tools
-	%ANDROID_HOME%\build-tools
-	%ANDROID_HOME%\cmdline-tools\latest\bin
-	%ANDROID_HOME\emulator
-	%GRADLE_HOME%\bin
-	c:\HybridApp\apace-ant-1.9.16\bin
+####Path 
+%JAVA_HOME%\bin;    
+%ANDROID_HOME%\tools    
+%ANDROID_HOME%\platform-tools    
+%ANDROID_HOME%\build-tools    
+%ANDROID_HOME%\cmdline-tools\latest\bin    
+%ANDROID_HOME\emulator    
+%GRADLE_HOME%\bin    
+c:\HybridApp\apace-ant-1.9.16\bin    
 
 ### 6. Node.js 설치
 "node js 설치" 검색 후 다운로드
