@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<style>
+   li { list-style:none; }
+  .picture { list-style:none; padding:0; margin:0; }
+  .picture li { float:left; width:50%;}
+  .picture li a {display:block; margin:5px; border: 1px }
+  .picture li img { display:block; width:50%;  height:auto;}
+  .picture li img:hover { display:block; width:100%;  height:auto;} 
+</style>
+</head>
+
+<body>
+<div data-theme="b">
+	<div data-role="page" id="home">
+		<div data-role="header" data-theme="b">
+			<h1>임수민 프로필</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<img src="sumin.jpg" width="200px" >
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#intro">임수민 프로필</a></li>
+				<li><a href="#Introduction">소개</a></li>
+				<li><a href="#Project">프로젝트</a></li>
+			</ul>
+		</div>
+		
+	</div>
+	
+	<div data-role="page" id="intro" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>		
+			<h1>임수민 포트폴리오</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<img src="sumin.jpg" width="200px">
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>소개</h3>
+					<p>동의과학대학교 컴퓨터정보과를 재학 중인 임수민입니다.<br>
+						학교를 다니면서 학습한 언어는 JAVA, JavaScript, C언어 등이 있습니다.<br>
+						지금은 실력이 부족하지만 졸업 후에도 계속 공부를 해서 실력 있는 개발자가 되도록 노력하겠습니다.</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>연락</h3>
+					<p>phone:　010-7651-7346</p>
+					<p>E-mail:　tnals1045@naver.com</p>
+					<p>Instagram:　s_um2n</p>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+	
+	<div data-role="page" id="Introduction" data-theme="b">
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>	
+			<h1>소개</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>인적사항</h3>
+					<p>이름:　임수민</p>
+					<p>나이:　24살</p>
+					<p>거주지:　부산광역시 진구</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>학력</h3>
+					<p>고등학교 검정고시</p>
+					<p>동의과학대</p>
+				</div>
+				<div data-role="collapsible" >
+					<h3>학습언어</h3>
+					<p>Java</p>
+					<p>JavaScript</p>
+					<p>C언어</p>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+
+	<div data-role="page" id="Project" data-theme="b">
+		<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>	
+			<h1>프로젝트</h1>
+		</div>
+		<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+			<div data-role="collapsible" data-collapsed="false">
+				<h3>모바일앱프로젝트</h3>
+				<p>명함관리앱</p>
+				<ul class="picture">
+					<img src="su.png" width="200px">
+					<img src="su1.png" width="200px">
+					<img src="su2.png" width="200px">
+		<div data-role="content">
+		</div>	
+	</div>
+</div>	
+</body>
+</html>
